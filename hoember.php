@@ -1,6 +1,6 @@
 <?php
 header('Content-type:image/png');
-$kep = imagecreate(600, 350); // (x, y)
+$kep = imagecreate(600, 350);
 $background = imagecolorallocate($kep, 120, 120, 120);
 $feher = imagecolorallocate($kep, 255, 255, 255);
 $fekete = imagecolorallocate($kep, 0, 0, 0);
